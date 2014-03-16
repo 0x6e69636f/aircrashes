@@ -1,0 +1,126 @@
+
+  html, body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+  }
+
+  a{
+    color:#2195B5;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color:#DBA42C;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #bandeau {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    color: white;
+    font-size: 2em;
+    background-color: black;
+    padding: 7px;
+    width: 90%;
+    z-index: 100;
+  }
+
+  #controls input{
+    margin-right: 10px;
+  }
+
+  #controls input, #controls label {
+    border: none;
+    padding: 5px;
+  }
+
+  #controls input[type='text']{
+    margin-left: 0;
+  }
+
+  #controls label{
+    background-color: rgb(204, 218, 255);
+    margin-right: 0;
+  }
+
+  #entete {
+    border-bottom: solid darkgray 1px;
+    margin-bottom: 15px;
+  }
+
+  #info{
+
+  }
+
+  #carte {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+
+  #cache_carte{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 99;
+    opacity: 1;
+  }
+
+  .blue{
+    background-color: rgb(204, 218, 255);
+  }
+
+  .green{
+    background-color: #acffa9;
+  }
+
+  .red{
+    background-color: #ffa394;
+  }
+
+  #controls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255);
+    padding: 7px;
+    width: 90%;
+    z-index: 100;
+  }
+
+  #data_text_box {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    width: 20%;
+    max-height: 60%;
+    overflow: auto;
+    background-color: black;
+    padding: 10px;
+    color:white;
+    border: none;
+    z-index: 101;
+    font-weight: normal;
+  }
+
+
+
+  #clear {
+    clear: both;
+  }
+
+  #buttons {
+    margin: 10px 0;
+  }
